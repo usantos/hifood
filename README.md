@@ -1,50 +1,40 @@
-🍽️ Restaurant App
-Aplicativo Android desenvolvido com foco em boas práticas modernas de desenvolvimento mobile. A aplicação lista restaurantes de forma paginada, permitindo busca, exibe esqueleto de carregamento (skeleton) e utiliza dados mockados para simulação de atrasos de rede.
+# 🍽️ Restaurant App
 
-📚 Tecnologias e Práticas Utilizadas
-Arquitetura MVVM — Separação clara de responsabilidades entre View, ViewModel e Model.
+Aplicativo Android desenvolvido com Jetpack Compose e arquitetura moderna, focado na listagem e busca de restaurantes com suporte a paginação, carregamento elegante e testes unitários.
 
-Kotlin Coroutines — Gerenciamento de chamadas assíncronas de forma eficiente e legível.
+---
 
-Jetpack Compose — Construção de interfaces declarativas, modernas e reativas.
+## ✅ Funcionalidades
 
-Paging 3 — Implementação de paginação para exibição eficiente da lista de restaurantes.
+- 📦 **Arquitetura MVVM com Coroutines**  
+  Estrutura limpa e desacoplada usando ViewModel, Repository e UseCase com suporte a operações assíncronas.
 
-Busca de Restaurantes — Filtro e exibição de resultados conforme texto digitado.
+- 🎨 **Interface com Jetpack Compose**  
+  Toda a interface do usuário construída com Compose, seguindo boas práticas de design moderno.
 
-Skeleton Loading — Exibição de layout temporário durante o carregamento dos dados.
+- 📄 **Listagem de Restaurantes com Paging 3**  
+  Paginação eficiente e automática usando a biblioteca oficial do Jetpack.
 
-Coil — Biblioteca moderna e eficiente para carregamento de imagens no Jetpack Compose.
+- 🔍 **Busca de Restaurantes**  
+  Campo de busca com atualização reativa da lista conforme o texto digitado.
 
-Mock de Dados — Simulação de respostas com atraso para testes e desenvolvimento.
+- 🦴 **Carregamento com Skeleton**  
+  Placeholder de carregamento enquanto os dados são buscados, oferecendo melhor experiência ao usuário.
 
-MockK — Framework de mocking leve e idiomático para testes unitários em Kotlin.
+- ⏱️ **Mock com Atraso na Requisição**  
+  Simulação de tempo de resposta da API para testes e validação de estados de loading.
 
-Teste Unitário da RestaurantViewModel — Garantia de que a lógica de negócios da ViewModel está funcionando corretamente.
+- 🖼️ **Renderização de Imagens com Coil**  
+  Biblioteca leve e rápida para carregamento de imagens diretamente no Compose.
 
-🚀 Como rodar
-Clone o repositório:
+---
 
-bash
-Copiar
-Editar
-git clone https://github.com/seuusuario/restaurant-app.git
-Abra no Android Studio Arctic Fox ou superior.
+## 🧪 Testes
 
-Compile e rode o projeto em um emulador ou dispositivo físico.
+- ✅ **Teste unitário da `RestaurantViewModel`**
+- 🧪 **Uso de [MockK](https://mockk.io/)** para simulação de dependências em testes
 
-🧪 Testes
-Os testes unitários podem ser executados com:
+Execute os testes com:
 
-bash
-Copiar
-Editar
+```bash
 ./gradlew testDebugUnitTest
-Testes da RestaurantViewModel com o uso de MockK estão localizados em:
-
-swift
-Copiar
-Editar
-app/src/test/java/com/seupacote/viewmodel/RestaurantViewModelTest.kt
-🖼️ Screenshots
-(Adicione aqui prints da tela inicial, loading, busca e erro se desejar)
