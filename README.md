@@ -27,6 +27,8 @@ Aplicativo Android desenvolvido com Jetpack Compose e arquitetura moderna, focad
 - 🖼️ **Renderização de Imagens com Coil**  
   Biblioteca leve e rápida para carregamento de imagens diretamente no Compose.
 
+<img width="266" alt="image" src="https://github.com/user-attachments/assets/575c6e27-8562-48f0-970d-27258772b783" />
+
 ---
 
 ## 🧪 Testes
