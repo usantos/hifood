@@ -1,4 +1,4 @@
-# 🍽️ Restaurant App
+# 🍽️ HiFood - App de Restaurantes
 
 Aplicativo Android desenvolvido com Jetpack Compose e arquitetura moderna, focado na listagem e busca de restaurantes com suporte a paginação, carregamento elegante e testes unitários.
 
