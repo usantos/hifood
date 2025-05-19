@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HiFood</string>
+    <string name="address_label">Tv. Bela, 7</string>
+    <string name="location_expand_content_desc">Expandir localização</string>
+    <string name="notifications_content_desc">Notificações</string>
+    <string name="category_search">Buscar</string>
+    <string name="category_restaurants">Restaurantes</string>
+    <string name="category_markets">Mercados</string>
+    <string name="category_pharmacies">Farmácias</string>
+    <string name="filter_sort">Ordenar</string>
+    <string name="filter_free_delivery">Entrega Grátis</string>
+    <string name="filter_meal_voucher">Vale-refeição</string>
+    <string name="section_stores">Lojas</string>
+    <string name="error_loading_restaurants">Erro ao carregar restaurantes</string>
+    <string name="error_retry">Tentar novamente</string>
+    <string name="error_loading_more_restaurants">Erro ao carregar mais restaurantes</string>
+    <string name="dropdown_expand">Expandir</string>
+</resources>
